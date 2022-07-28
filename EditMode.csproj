@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0232DFA7-9EAF-14EC-6F91-3EAFD51DF27B}</ProjectGuid>
+    <ProjectGuid>{0926A807-D297-37D4-3E71-EF0EA0639083}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>EditMode</AssemblyName>

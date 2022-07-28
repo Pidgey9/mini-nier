@@ -114,7 +114,7 @@ GameObject:
   - component: {fileID: 6219792677079426448}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -212,7 +212,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!114 &6219792677079426448
 MonoBehaviour:
@@ -226,3 +226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d90e1375fceb1a4fbace139a85f8c02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerTransform: {fileID: 0}
+  rotaSpeed: 1
+  speed: 1

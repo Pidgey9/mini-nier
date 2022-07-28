@@ -7,12 +7,22 @@ public class EnemyWalker : MonoBehaviour
     [SerializeField]
     Transform playerTransform;
     Quaternion rota;
+    [SerializeField]
+    float rotaSpeed = 1f;
+    Rigidbody rb;
+    [SerializeField]
+    float speed = 1f;
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
     private void FixedUpdate()
     {
         //transform.rotation = Quaternion.Inverse(playerTransform.rotation);
         //transform.rotation.SetFromToRotation(transform.position, playerTransform.position);
         TurnTowardsPlayer();
         transform.rotation = rota;
+        rb.velocity = transform.forward * speed;
     }
     void TurnTowardsPlayer()
     {
@@ -20,7 +30,7 @@ public class EnemyWalker : MonoBehaviour
         if (dir != Vector3.zero)
         {
             Quaternion look = Quaternion.LookRotation(dir);
-            rota = Quaternion.RotateTowards(transform.rotation, look, 1);
+            rota = Quaternion.RotateTowards(transform.rotation, look, rotaSpeed);
         }
     }
 }
