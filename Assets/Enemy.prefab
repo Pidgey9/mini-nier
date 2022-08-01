@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d90e1375fceb1a4fbace139a85f8c02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 6769661527731040484, guid: dc1f3147796832a42b3fc279aca5c7a2, type: 3}
   rotaSpeed: 1
   speed: 1
 --- !u!114 &5442385386193903719
@@ -243,4 +243,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCurrentHP: {fileID: 11400000, guid: b0aa5cb67e65a6741be727f1519103ae, type: 2}
-  enemycount: {fileID: 11400000, guid: 3e752badc2301a546ba71a2bda41527f, type: 2}
+  numberKill: {fileID: 11400000, guid: 7d47eb8403996604aa1bad2d988b8df6, type: 2}

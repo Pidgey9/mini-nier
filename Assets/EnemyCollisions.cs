@@ -6,20 +6,17 @@ public class EnemyCollisions : MonoBehaviour
 {
     //[SerializeField]
     public IntVariable playerCurrentHP;
-    public IntVariable enemycount;
+    public IntVariable numberKill;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.CompareTag("Player"))
         {
-            //Debug.Log("DEAD");
             playerCurrentHP.value--;
         }
         if (collision.collider.CompareTag("Bullet"))
         {
             Destroy(gameObject);
-            enemycount.value--;
-            //Debug.Log(enemycount.value);
-
+            numberKill.value--;
         }
     }
 }

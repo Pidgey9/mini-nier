@@ -5,8 +5,9 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     public IntVariable playerCurrentHP;
-    public IntVariable enemyCount;
+    public IntVariable numberKill;
     public IntVariable l;
+    public IntVariable enemyCurrentHP;
     private void Win()
     {
         Debug.Log("YOU WIN!!!!!");
@@ -17,19 +18,27 @@ public class LevelManager : MonoBehaviour
         Debug.Log("FAILURE!!!!");
         l.value = 0;
     }
+    private void NotWin()
+    {
+        l.value = 5;
+    }
     private void Awake()
     {
         l.value = 1;
     }
     private void Update()
     {
-        if (enemyCount.value == 0)
+        if (numberKill.value <= 0)
         {
-            Win();
+            NotWin();
         }
-        if (playerCurrentHP.value == 0)
+        if (playerCurrentHP.value <= 0)
         {
             Lose();
+        }
+        if(enemyCurrentHP.value <= 0)
+        {
+            Win();
         }
     }
 }

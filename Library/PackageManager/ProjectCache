@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637944230981314532
-    m_Hash: 3979996139
+      ticks: 637949435215310608
+    m_Hash: 3724364073
   m_LockFileStatus:
     m_FilePath: C:/Users/Bastien/Documents/GitHub/mini-nier/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637944231099971823
-    m_Hash: 3809199474
+      ticks: 637949435215620372
+    m_Hash: 2896841414
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -166,6 +166,93 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.15.18
+    nextVersion: 
+- packageId: com.unity.connect.share@4.2.3
+  testable: 0
+  isDirectDependency: 1
+  version: 4.2.3
+  source: 1
+  resolvedPath: C:\Users\Bastien\Documents\GitHub\mini-nier\Library\PackageCache\com.unity.connect.share@4.2.3
+  assetPath: Packages/com.unity.connect.share
+  name: com.unity.connect.share
+  displayName: WebGL Publisher
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: This tool allows you to make a WebGL build of your current project
+    and upload it to Unity's website, where it can be shared with others.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview
+    - 1.0.1-preview
+    - 1.0.2-preview
+    - 1.0.3-preview
+    - 1.0.4-preview
+    - 1.0.5-preview
+    - 1.0.6-preview.2
+    - 1.0.7-preview
+    - 1.0.8-preview
+    - 1.0.9-preview
+    - 1.0.10-preview
+    - 1.1.0-preview.1
+    - 1.2.0-preview.1
+    - 2.0.1-preview
+    - 2.0.2-preview.3
+    - 2.0.2-preview.4
+    - 2.0.3
+    - 2.0.5
+    - 2.0.6
+    - 2.1.0
+    - 3.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.1.0
+    - 4.1.1
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    compatible:
+    - 4.2.3
+    verified: 4.2.3
+  dependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 1.0.2
+  resolvedDependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  keywords:
+  - webgl
+  - share
+  - connect
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637695698090000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.connect.share.git
+    revision: 9a66a825d48494378f81fc94289eddd505df1c40
+    path: 
+  unityLifecycle:
+    version: 4.2.3
     nextVersion: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
@@ -3053,6 +3140,63 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
+- packageId: com.unity.settings-manager@1.0.3
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.3
+  source: 1
+  resolvedPath: C:\Users\Bastien\Documents\GitHub\mini-nier\Library\PackageCache\com.unity.settings-manager@1.0.3
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    verified: 1.0.3
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637300096300000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 473664ccba1496294b741cf169740a5d54b3d0b6
+    path: 
+  unityLifecycle:
+    version: 1.0.3
+    nextVersion: 
 - packageId: com.unity.services.core@1.4.0
   testable: 0
   isDirectDependency: 0
@@ -3130,63 +3274,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.4.0
-    nextVersion: 
-- packageId: com.unity.settings-manager@1.0.3
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.3
-  source: 1
-  resolvedPath: C:\Users\Bastien\Documents\GitHub\mini-nier\Library\PackageCache\com.unity.settings-manager@1.0.3
-  assetPath: Packages/com.unity.settings-manager
-  name: com.unity.settings-manager
-  displayName: Settings Manager
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: A framework for making any serializable field a setting, complete
-    with a pre-built settings interface.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    compatible:
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    verified: 1.0.3
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637300096300000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 473664ccba1496294b741cf169740a5d54b3d0b6
-    path: 
-  unityLifecycle:
-    version: 1.0.3
     nextVersion: 
 - packageId: com.unity.nuget.newtonsoft-json@3.0.2
   testable: 0
