@@ -897,7 +897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d6541ba704126428820a77f8b57f08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyCount: {fileID: 0}
+  enemyCount: {fileID: 11400000, guid: 3e752badc2301a546ba71a2bda41527f, type: 2}
 --- !u!4 &1057987041
 Transform:
   m_ObjectHideFlags: 0
@@ -1233,6 +1233,53 @@ PrefabInstance:
       objectReference: {fileID: 1874929565}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bd12fe1133f2b24d856f74b9082e0a5, type: 3}
+--- !u!1 &1755491942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1755491944}
+  - component: {fileID: 1755491943}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1755491943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755491942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d4ad727f96b59a41a90fc53690859ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCurrentHP: {fileID: 11400000, guid: b0aa5cb67e65a6741be727f1519103ae, type: 2}
+  enemyCount: {fileID: 11400000, guid: 3e752badc2301a546ba71a2bda41527f, type: 2}
+  l: {fileID: 11400000, guid: 42e94cfa0eb53924abac2241e4ad2efb, type: 2}
+--- !u!4 &1755491944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755491942}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1874929559
 GameObject:
   m_ObjectHideFlags: 0
@@ -1379,6 +1426,7 @@ MonoBehaviour:
   bullet: {fileID: 2635029121598762238, guid: 036adbb033af6884c87bf4f8858f60a4, type: 3}
   canon: {fileID: 2073002077}
   cadence: 1
+  l: {fileID: 11400000, guid: 42e94cfa0eb53924abac2241e4ad2efb, type: 2}
 --- !u!114 &1874929567
 MonoBehaviour:
   m_ObjectHideFlags: 0

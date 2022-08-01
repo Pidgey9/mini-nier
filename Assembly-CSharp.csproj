@@ -58,13 +58,14 @@
   <ItemGroup>
     <Compile Include="Assets\EnemyWalker.cs" />
     <Compile Include="Assets\PlayerMove.cs" />
-    <Compile Include="Assets\PlayerShoot.cs" />
-    <Compile Include="Assets\Bullet.cs" />
+    <Compile Include="Assets\EnemyManager.cs" />
+    <Compile Include="Assets\Scripts\IntVariable.cs" />
     <Compile Include="Assets\EnemyCollisions.cs" />
     <Compile Include="Assets\BulletCollisions.cs" />
-    <Compile Include="Assets\Scripts\IntVariable.cs" />
     <Compile Include="Assets\PlayerHealth.cs" />
-    <Compile Include="Assets\EnemyManager.cs" />
+    <Compile Include="Assets\PlayerShoot.cs" />
+    <Compile Include="Assets\Bullet.cs" />
+    <Compile Include="Assets\LevelManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -10,6 +10,7 @@ public class PlayerShoot : MonoBehaviour
     Transform canon;
     int count;
     public int cadence = 1;
+    public IntVariable l;
     private void Start()
     {
         count = 0;
@@ -21,8 +22,15 @@ public class PlayerShoot : MonoBehaviour
     private void Update()
     {
         count++;
-
-        if (/*Input.GetButton("Fire1") &&*/ count%cadence==0)
+        if (l.value == 10)
+        {
+            if(count%10 == 0)
+            {
+                FireBullet();
+            }
+            return;
+        }
+        if (/*Input.GetButton("Fire1") &&*/ count%cadence==0 && l.value != 0)
         {
             FireBullet();
         }

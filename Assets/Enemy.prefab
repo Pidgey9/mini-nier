@@ -243,3 +243,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCurrentHP: {fileID: 11400000, guid: b0aa5cb67e65a6741be727f1519103ae, type: 2}
+  enemycount: {fileID: 11400000, guid: 3e752badc2301a546ba71a2bda41527f, type: 2}
