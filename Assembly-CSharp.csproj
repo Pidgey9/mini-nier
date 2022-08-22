@@ -59,16 +59,16 @@
     <Compile Include="Assets\EnemyWalker.cs" />
     <Compile Include="Assets\PlayerMove.cs" />
     <Compile Include="Assets\EnemyManager.cs" />
+    <Compile Include="Assets\Spawn.cs" />
     <Compile Include="Assets\Scripts\IntVariable.cs" />
     <Compile Include="Assets\EnemyCollisions.cs" />
     <Compile Include="Assets\BulletCollisions.cs" />
     <Compile Include="Assets\LevelManager.cs" />
     <Compile Include="Assets\PlayerHealth.cs" />
+    <Compile Include="Assets\BigCollision.cs" />
+    <Compile Include="Assets\BigSpawn.cs" />
     <Compile Include="Assets\PlayerShoot.cs" />
     <Compile Include="Assets\Bullet.cs" />
-    <Compile Include="Assets\Spawn.cs" />
-    <Compile Include="Assets\BigSpawn.cs" />
-    <Compile Include="Assets\BigCollision.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -728,6 +728,9 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Play.Publisher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Play.Publisher.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -739,6 +742,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
@@ -757,12 +763,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Play.Publisher.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Play.Publisher.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
