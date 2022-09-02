@@ -244,3 +244,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCurrentHP: {fileID: 11400000, guid: b0aa5cb67e65a6741be727f1519103ae, type: 2}
   enemyCurrentHP: {fileID: 11400000, guid: 1f69e55160af81c4788f361b610496ad, type: 2}
+  level: {fileID: 11400000, guid: f294bec9767179d44b2be45bfe70f358, type: 2}

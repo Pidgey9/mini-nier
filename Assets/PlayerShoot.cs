@@ -11,6 +11,7 @@ public class PlayerShoot : MonoBehaviour
     int count;
     public int cadence = 1;
     public IntVariable l;
+    public IntVariable level;
     private void Start()
     {
         count = 0;
@@ -30,7 +31,7 @@ public class PlayerShoot : MonoBehaviour
             }
             return;
         }
-        if (/*Input.GetButton("Fire1") &&*/ count%cadence==0 && l.value != 0)
+        if (/*Input.GetButton("Fire1") &&*/ count%(cadence) == 0 && l.value != 0)
         {
             FireBullet();
         }

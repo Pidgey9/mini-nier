@@ -339,6 +339,7 @@
 "Assets/EnemyManager.cs"
 "Assets/EnemyWalker.cs"
 "Assets/LevelManager.cs"
+"Assets/LevelNumber.cs"
 "Assets/PlayerHealth.cs"
 "Assets/PlayerMove.cs"
 "Assets/PlayerShoot.cs"
